@@ -1,0 +1,193 @@
+# Makeup Recommendations by Undertone and Skin Depth
+
+rules:
+  # --- WARM UNDERTONE - LIGHT SKIN ---
+  - when:
+      undertone: warm
+      fitzpatrick: I
+    then:
+      category: makeup
+      lipstick:
+        best: ["Peach nude", "Warm pink", "Light coral", "Apricot"]
+        good: ["Soft terracotta", "Warm rose"]
+      blush:
+        best: ["Peach", "Warm pink", "Apricot"]
+        good: ["Light coral"]
+      eyeshadow:
+        best: ["Warm champagne", "Soft gold", "Peach", "Warm brown"]
+        good: ["Copper", "Bronze", "Warm taupe"]
+      foundation_note: "Look for foundations with yellow or golden undertones"
+      why: "Light warm skin glows with peach, coral, and golden tones that complement natural warmth"
+
+  - when:
+      undertone: warm
+      fitzpatrick: II
+    then:
+      category: makeup
+      lipstick:
+        best: ["Warm nude", "Coral", "Peach pink", "Terracotta"]
+        good: ["Warm berry", "Burnt rose"]
+      blush:
+        best: ["Coral", "Warm peach", "Sunset pink"]
+        good: ["Warm berry"]
+      eyeshadow:
+        best: ["Gold", "Bronze", "Warm brown", "Copper"]
+        good: ["Terracotta", "Warm plum"]
+      foundation_note: "Golden or warm beige undertones work best"
+      why: "Light-medium warm skin is enhanced by coral, golden, and warm earth tones"
+
+  # --- WARM UNDERTONE - MEDIUM SKIN ---
+  - when:
+      undertone: warm
+      fitzpatrick: III
+    then:
+      category: makeup
+      lipstick:
+        best: ["Terracotta", "Warm berry", "Burnt rose", "Cinnamon"]
+        good: ["Warm red", "Brick"]
+      blush:
+        best: ["Warm rose", "Terracotta", "Sunset"]
+        good: ["Warm bronze", "Soft berry"]
+      eyeshadow:
+        best: ["Bronze", "Copper", "Warm brown", "Gold"]
+        good: ["Warm burgundy", "Terracotta", "Forest green"]
+      foundation_note: "Warm beige or golden tan shades"
+      why: "Medium warm skin radiates with bronze, terracotta, and warm berry tones"
+
+  - when:
+      undertone: warm
+      fitzpatrick: IV
+    then:
+      category: makeup
+      lipstick:
+        best: ["Warm brown", "Brick red", "Cinnamon", "Deep coral"]
+        good: ["Warm plum", "Rich terracotta"]
+      blush:
+        best: ["Warm bronze", "Deep peach", "Terracotta"]
+        good: ["Warm berry"]
+      eyeshadow:
+        best: ["Rich gold", "Deep bronze", "Warm brown", "Copper"]
+        good: ["Warm burgundy", "Olive", "Rich terracotta"]
+      foundation_note: "Deep golden or warm caramel undertones"
+      why: "Medium-deep warm skin is most enhanced by rich earthy tones and deep warm colors"
+
+  # --- WARM UNDERTONE - DEEP SKIN ---
+  - when:
+      undertone: warm
+      fitzpatrick: V
+    then:
+      category: makeup
+      lipstick:
+        best: ["Rich berry", "Deep plum", "Wine", "Warm brown"]
+        good: ["Deep red", "Burgundy"]
+      blush:
+        best: ["Deep berry", "Rich bronze", "Warm plum"]
+        good: ["Deep terracotta"]
+      eyeshadow:
+        best: ["Rich gold", "Deep copper", "Warm bronze", "Mahogany"]
+        good: ["Deep plum", "Burgundy", "Rich olive"]
+      foundation_note: "Rich warm undertones, deep golden or caramel"
+      why: "Deep warm skin glows with rich, saturated warm tones that highlight natural depth"
+
+  - when:
+      undertone: warm
+      fitzpatrick: VI
+    then:
+      category: makeup
+      lipstick:
+        best: ["Deep wine", "Rich berry", "Dark plum", "Deep brown"]
+        good: ["Oxblood", "Deep burgundy"]
+      blush:
+        best: ["Deep bronze", "Rich berry", "Deep plum"]
+        good: ["Deep wine"]
+      eyeshadow:
+        best: ["Deep gold", "Rich bronze", "Mahogany", "Deep copper"]
+        good: ["Rich plum", "Deep olive", "Warm black"]
+      foundation_note: "Deep warm undertones, rich espresso or mahogany"
+      why: "Very deep warm skin is beautifully enhanced by deeply saturated warm tones"
+
+  # --- COOL UNDERTONE ---
+  - when:
+      undertone: cool
+      fitzpatrick: I
+    then:
+      category: makeup
+      lipstick:
+        best: ["Cool pink", "Rose", "Soft berry", "Mauve"]
+        good: ["Plum", "Cool red"]
+      blush:
+        best: ["Cool pink", "Rose", "Soft berry"]
+        good: ["Lavender pink"]
+      eyeshadow:
+        best: ["Cool taupe", "Silver", "Lavender", "Cool grey"]
+        good: ["Soft plum", "Cool pink"]
+      foundation_note: "Pink or neutral-cool undertones"
+      why: "Fair cool skin is most enhanced by rose, berry, and cool pink tones"
+
+  - when:
+      undertone: cool
+      fitzpatrick: III
+    then:
+      category: makeup
+      lipstick:
+        best: ["Berry", "Cool red", "Raspberry", "Mauve pink"]
+        good: ["Plum", "Cool rose"]
+      blush:
+        best: ["Cool rose", "Berry", "Soft plum"]
+        good: ["Raspberry"]
+      eyeshadow:
+        best: ["Cool brown", "Silver", "Plum", "Cool grey"]
+        good: ["Navy", "Cool green", "Amethyst"]
+      foundation_note: "Neutral to cool beige undertones"
+      why: "Medium cool skin is flattered by berry, plum, and jewel-toned shades"
+
+  - when:
+      undertone: cool
+      fitzpatrick: V
+    then:
+      category: makeup
+      lipstick:
+        best: ["Deep berry", "Cool plum", "Wine", "Deep fuchsia"]
+        good: ["Deep red", "Blackberry"]
+      blush:
+        best: ["Deep berry", "Cool plum", "Rich rose"]
+        good: ["Deep fuchsia"]
+      eyeshadow:
+        best: ["Deep plum", "Silver", "Cool brown", "Navy"]
+        good: ["Deep amethyst", "Gunmetal"]
+      foundation_note: "Deep neutral-cool undertones"
+      why: "Deep cool skin glows with rich berry, plum, and cool-toned depth"
+
+  # --- NEUTRAL UNDERTONE ---
+  - when:
+      undertone: neutral
+    then:
+      category: makeup
+      lipstick:
+        best: ["Dusty rose", "Mauve", "Nude pink", "Soft berry"]
+        good: ["Most pink and berry tones work well"]
+      blush:
+        best: ["Dusty pink", "Soft peach", "Rose"]
+        good: ["Most blush tones work beautifully"]
+      eyeshadow:
+        best: ["Taupe", "Soft brown", "Rose gold", "Muted plum"]
+        good: ["Both warm and cool shades work — experiment freely"]
+      foundation_note: "True neutral or balanced undertones"
+      why: "Neutral undertones have wonderful versatility — muted, dusty tones are especially flattering"
+
+  # --- OLIVE UNDERTONE ---
+  - when:
+      undertone: olive
+    then:
+      category: makeup
+      lipstick:
+        best: ["Warm berry", "Brick red", "Terracotta", "Deep rose"]
+        good: ["Warm plum", "Cinnamon"]
+      blush:
+        best: ["Warm peach", "Deep rose", "Soft bronze"]
+        good: ["Warm berry"]
+      eyeshadow:
+        best: ["Bronze", "Rich brown", "Gold", "Olive green"]
+        good: ["Deep plum", "Warm burgundy", "Copper"]
+      foundation_note: "Look for foundations with green-golden undertones, not purely yellow or pink"
+      why: "Olive undertones are most enhanced by warm, earthy tones that complement the unique green-gold base"

@@ -1,0 +1,67 @@
+# Fusion / Indo-Western Styling Rules
+
+rules:
+  # --- WOMEN'S FUSION ---
+  - when:
+      gender: women
+    then:
+      category: fusion_women
+      combinations:
+        - name: "Saree with Modern Blouse"
+          description: "Classic saree paired with a crop top, off-shoulder, or jacket blouse"
+          works_with: ["All body types"]
+        - name: "Kurta with Jeans"
+          description: "Short or long kurta paired with straight-leg or bootcut jeans"
+          works_with: ["All body types"]
+        - name: "Lehenga with Crop Top"
+          description: "Traditional lehenga skirt with a modern crop top or structured blouse"
+          works_with: ["Hourglass", "Rectangle", "Triangle"]
+        - name: "Anarkali with Palazzo"
+          description: "Anarkali top with Western-style wide-leg palazzos"
+          works_with: ["Rectangle", "Oval", "Pear"]
+        - name: "Dhoti Pants with Western Top"
+          description: "Dhoti-style draped pants with a structured blazer or shirt"
+          works_with: ["Hourglass", "Rectangle", "Inverted-triangle"]
+        - name: "Cape Kurta"
+          description: "Floor-length cape over a fitted kurta or dress"
+          works_with: ["All body types — especially flattering for Oval and Rectangle"]
+        - name: "Jacket Saree"
+          description: "Saree worn with a long jacket or structured blazer instead of pallu"
+          works_with: ["All body types"]
+      styling_tips:
+        - "Mix fabrics: pair silk Indian pieces with structured Western fabrics"
+        - "Keep one element traditional and one modern for balance"
+        - "Accessorize with a blend — Western bag with Indian jewellery"
+        - "Neutral Western pieces pair best with vibrant Indian elements"
+      why: "Fusion styling creates a unique, contemporary look by blending the best of Indian and Western fashion"
+
+  # --- MEN'S FUSION ---
+  - when:
+      gender: men
+    then:
+      category: fusion_men
+      combinations:
+        - name: "Nehru Jacket over Western Shirt"
+          description: "Structured nehru jacket worn over a crisp shirt with chinos or trousers"
+          works_with: ["All body types"]
+        - name: "Kurta with Chinos"
+          description: "Short kurta paired with well-fitted chinos and loafers"
+          works_with: ["All body types"]
+        - name: "Bandhgala with Jeans"
+          description: "Formal bandhgala jacket with dark jeans for smart casual"
+          works_with: ["Rectangle", "Trapezoid", "Inverted-triangle"]
+        - name: "Printed Shirt with Dhoti Pants"
+          description: "Modern printed shirt with draped dhoti-style pants"
+          works_with: ["Rectangle", "Trapezoid"]
+        - name: "Bundi Jacket with Tee"
+          description: "Embroidered bundi/nehru jacket over a plain tee with jeans"
+          works_with: ["All body types"]
+        - name: "Asymmetric Kurta with Joggers"
+          description: "Modern asymmetric kurta with tailored joggers and sneakers"
+          works_with: ["Rectangle", "Inverted-triangle", "Trapezoid"]
+      styling_tips:
+        - "Keep one piece Indian and the rest Western for effortless fusion"
+        - "Nehru jackets work as blazer alternatives in most settings"
+        - "Earth tones bridge Indian and Western pieces naturally"
+        - "Quality footwear ties the look together — juttis or leather loafers"
+      why: "Men's fusion combines the sophistication of Indian tailoring with Western versatility"

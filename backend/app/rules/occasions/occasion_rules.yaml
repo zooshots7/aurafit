@@ -1,0 +1,85 @@
+# Occasion-Based Styling Modifiers
+
+rules:
+  - when:
+      occasion: casual
+    then:
+      category: occasion
+      dress_code: "Relaxed, comfortable, effortless"
+      key_pieces: ["Well-fitted jeans or chinos", "Quality tee or casual shirt", "Clean sneakers or loafers"]
+      fabric_preference: ["Cotton", "Linen", "Denim", "Jersey"]
+      color_approach: "Earth tones, pastels, and muted tones for a relaxed feel"
+      accessories: "Minimal — a watch, sunglasses, simple bracelet"
+      indian_option: "Short cotton kurta with jeans or casual churidar"
+      why: "Casual dressing should be effortless yet intentional — quality basics in flattering colors"
+
+  - when:
+      occasion: office
+    then:
+      category: occasion
+      dress_code: "Professional, polished, confident"
+      key_pieces: ["Tailored trousers", "Structured blazer", "Crisp button-down", "Polished shoes"]
+      fabric_preference: ["Wool blend", "Cotton poplin", "Structured knit", "Ponte"]
+      color_approach: "Neutrals as base — navy, charcoal, grey — with accent colors from your palette"
+      accessories: "Quality watch, leather belt, structured bag, subtle jewellery"
+      indian_option: "Formal kurta with churidar, bandhgala jacket for meetings"
+      why: "Office dressing balances professionalism with personal style — well-fitted basics in quality fabrics"
+
+  - when:
+      occasion: wedding
+    then:
+      category: occasion
+      dress_code: "Festive, elegant, celebratory"
+      key_pieces_women: ["Saree or lehenga (Indian)", "Evening gown or cocktail dress (Western)", "Statement jewellery"]
+      key_pieces_men: ["Sherwani or bandhgala (Indian)", "Dark suit or tuxedo (Western)", "Pocket square and cufflinks"]
+      fabric_preference: ["Silk", "Brocade", "Velvet", "Chiffon", "Organza"]
+      color_approach: "Rich, festive colors — avoid white/off-white (reserved for the couple)"
+      accessories: "Statement pieces — this is the occasion for bold jewellery and embellished accessories"
+      why: "Wedding attire should be celebratory and elegant — embrace rich fabrics and festive colors"
+
+  - when:
+      occasion: party
+    then:
+      category: occasion
+      dress_code: "Stylish, expressive, confident"
+      key_pieces_women: ["Cocktail dress", "Jumpsuit", "Statement separates", "Heels"]
+      key_pieces_men: ["Fitted shirt", "Dark trousers", "Blazer or leather jacket", "Chelsea boots"]
+      fabric_preference: ["Satin", "Sequin", "Velvet", "Leather", "Metallic"]
+      color_approach: "Bold colors, metallics, and jewel tones — this is the time to stand out"
+      accessories: "Statement earrings, bold clutch, eye-catching watch"
+      indian_option: "Embellished kurta or fusion crop top with skirt/lehenga"
+      why: "Party dressing is about confidence and self-expression — embrace bold choices"
+
+  - when:
+      occasion: date
+    then:
+      category: occasion
+      dress_code: "Polished, thoughtful, approachable"
+      key_pieces_women: ["Well-fitted dress", "Elegant separates", "Heeled boots or sandals"]
+      key_pieces_men: ["Fitted knit polo or henley", "Dark slim trousers", "Clean leather shoes"]
+      fabric_preference: ["Soft knits", "Silk", "Quality cotton", "Suede"]
+      color_approach: "Rich, warm tones — deep colors convey confidence and warmth"
+      accessories: "Subtle fragrance, quality watch, minimal but intentional jewellery"
+      why: "Date dressing should be authentically you at your most polished — confident and approachable"
+
+  - when:
+      occasion: travel
+    then:
+      category: occasion
+      dress_code: "Comfortable, practical, put-together"
+      key_pieces: ["Wrinkle-free separates", "Layering pieces", "Comfortable walking shoes", "Versatile jacket"]
+      fabric_preference: ["Merino wool", "Performance cotton", "Stretch fabrics", "Quick-dry materials"]
+      color_approach: "Neutral base with mix-and-match pieces — pack less, style more"
+      accessories: "Crossbody bag, travel wallet, comfortable watch, sunglasses"
+      why: "Travel dressing prioritizes comfort and versatility — capsule wardrobes that mix and match"
+
+  - when:
+      occasion: athleisure
+    then:
+      category: occasion
+      dress_code: "Sporty, refined, active-ready"
+      key_pieces: ["Performance tee or tank", "Joggers or training pants", "Quality sneakers", "Lightweight jacket"]
+      fabric_preference: ["Technical knit", "Moisture-wicking", "Stretch cotton", "Neoprene"]
+      color_approach: "Tonal earth tones or monochrome — elevated, not gym-only"
+      accessories: "Sport watch, performance socks, sleek backpack"
+      why: "Athleisure bridges active and casual — technical fabrics in flattering cuts"

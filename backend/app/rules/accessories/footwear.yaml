@@ -1,0 +1,79 @@
+# Footwear Recommendations by Height, Body Type, and Occasion
+
+rules:
+  # --- PETITE HEIGHT ---
+  - when:
+      height_category: petite
+      gender: women
+    then:
+      category: footwear
+      best: ["Pointed-toe heels", "Nude heels (elongate leg line)", "Platform shoes", "Wedges", "Kitten heels"]
+      good: ["Block heels", "Slim boots with heel", "Pointed flats"]
+      casual: ["Pointed-toe flats", "Slim sneakers", "Mules with a slight heel"]
+      formal: ["Pointed stilettos", "Platform pumps", "Strappy heels in nude"]
+      tips:
+        - "Nude or skin-toned shoes create an unbroken leg line that elongates"
+        - "Pointed toes create a longer visual line"
+        - "Avoid heavy, chunky soles that can overwhelm a petite frame"
+      why: "Petite frames are elongated by pointed silhouettes and shoes that match skin tone"
+
+  - when:
+      height_category: petite
+      gender: men
+    then:
+      category: footwear
+      best: ["Slim-profile shoes", "Chelsea boots (slight heel)", "Oxford shoes", "Sleek sneakers"]
+      good: ["Derby shoes", "Monk straps", "Loafers with a slim sole"]
+      casual: ["White leather sneakers", "Canvas slip-ons", "Suede desert boots"]
+      formal: ["Oxford shoes with slim sole", "Chelsea boots", "Leather loafers"]
+      tips:
+        - "Slim-soled shoes create a cleaner, elongated line"
+        - "Match shoe color to trouser color for an unbroken leg line"
+        - "Chelsea boots with a slight heel add subtle height"
+      why: "Sleek, streamlined shoes create an elongated silhouette for shorter frames"
+
+  # --- AVERAGE HEIGHT ---
+  - when:
+      height_category: average
+    then:
+      category: footwear
+      best: ["Most shoe styles work well", "Focus on personal style", "Match to occasion"]
+      good: ["All heights and sole thicknesses work"]
+      casual: ["Sneakers", "Loafers", "Sandals", "Canvas shoes"]
+      formal: ["Oxford shoes", "Heels", "Dress boots", "Pumps"]
+      tips:
+        - "Average height provides the most versatility in footwear"
+        - "Choose shoes based on occasion and personal style preference"
+        - "Experiment with different heel heights and sole thicknesses"
+      why: "Average height allows for the widest range of footwear — focus on what feels right"
+
+  # --- TALL HEIGHT ---
+  - when:
+      height_category: tall
+      gender: women
+    then:
+      category: footwear
+      best: ["Flat boots", "Ballet flats", "Block heels", "Chunky platforms", "Wide-strap sandals"]
+      good: ["Loafers", "Mules", "Ankle boots", "Sneakers"]
+      casual: ["Fashion sneakers", "Sandals", "Moccasins"]
+      formal: ["Elegant flats", "Kitten heels", "Block-heel boots"]
+      tips:
+        - "Tall frames carry flat shoes and platforms beautifully"
+        - "Embrace your height — heels are always an option if you love them"
+        - "Chunky and substantial shoes balance a taller frame well"
+      why: "Tall frames look stunning in both flats and heels — choose what you love"
+
+  - when:
+      height_category: tall
+      gender: men
+    then:
+      category: footwear
+      best: ["Oxford shoes", "Chunky sneakers", "Boots", "Loafers", "Brogues"]
+      good: ["Most shoe styles work well", "Substantial soles balance height"]
+      casual: ["Chunky sneakers", "High-top shoes", "Desert boots"]
+      formal: ["Oxford brogues", "Derby shoes", "Leather boots"]
+      tips:
+        - "Substantial shoes balance a taller frame proportionally"
+        - "Tall frames carry boots and chunky sneakers exceptionally well"
+        - "Avoid very thin soles that can look disproportionate"
+      why: "Taller frames are complemented by substantial, well-proportioned footwear"

@@ -1,0 +1,120 @@
+# Indian Wear Styling Rules for Women
+
+rules:
+  # --- SAREE BY BODY SHAPE ---
+  - when:
+      body_shape: hourglass
+      gender: women
+    then:
+      category: indian_saree
+      draping_style: ["Nivi drape (classic)", "Bengali drape", "Gujarati drape"]
+      best_fabrics: ["Silk", "Chiffon", "Georgette", "Crepe"]
+      blouse_cuts: ["Fitted blouse", "Princess cut", "Sweetheart neckline", "Deep back"]
+      pallu_style: "Let the pallu drape freely to showcase curves"
+      why: "The saree naturally enhances an hourglass figure — fitted draping defines the waist beautifully"
+
+  - when:
+      body_shape: rectangle
+      gender: women
+    then:
+      category: indian_saree
+      draping_style: ["Nivi drape with pleats fanned out", "Seedha pallu", "Mermaid drape"]
+      best_fabrics: ["Silk (adds volume)", "Net (creates dimension)", "Banarasi", "Kanjeevaram"]
+      blouse_cuts: ["Peplum blouse", "Embellished blouse", "Off-shoulder blouse", "Cape blouse"]
+      pallu_style: "Fan the pallu wide for a dramatic effect that creates curves"
+      why: "Heavier fabrics and structured blouse styles create beautiful curves and dimension"
+
+  - when:
+      body_shape: triangle
+      gender: women
+    then:
+      category: indian_saree
+      draping_style: ["Nivi drape with pallu on shoulder", "Front pallu drape"]
+      best_fabrics: ["Lightweight silk", "Georgette", "Chiffon (fluid drape)"]
+      blouse_cuts: ["Boat neck blouse", "Off-shoulder blouse", "Puff sleeve blouse", "Statement sleeve"]
+      pallu_style: "Drape the pallu across the shoulder to add width on top"
+      why: "Shoulder-enhancing blouse cuts and draped pallus create beautiful upper body balance"
+
+  - when:
+      body_shape: inverted-triangle
+      gender: women
+    then:
+      category: indian_saree
+      draping_style: ["Nivi drape with wide pleats", "Gujarati drape (pallu in front)"]
+      best_fabrics: ["Silk", "Cotton silk", "Banarasi (heavier border adds lower body volume)"]
+      blouse_cuts: ["V-neck blouse", "Simple sleeveless", "Halter neck", "Minimal design on top"]
+      pallu_style: "Let heavy borders create volume at the hip"
+      why: "Heavy borders and wide pleats add volume to the lower body, creating harmonious balance"
+
+  - when:
+      body_shape: oval
+      gender: women
+    then:
+      category: indian_saree
+      draping_style: ["Nivi drape with vertical pleats", "Seedha pallu"]
+      best_fabrics: ["Georgette", "Chiffon", "Crepe (light and flowing)"]
+      blouse_cuts: ["V-neck blouse", "Deep necklines", "Three-quarter sleeves", "Princess cut"]
+      pallu_style: "Pinned pallu for a clean, elongated line"
+      why: "Light, flowing fabrics and vertical draping create an elegant, elongated silhouette"
+
+  # --- LEHENGA BY BODY SHAPE ---
+  - when:
+      body_shape: hourglass
+      gender: women
+    then:
+      category: indian_lehenga
+      lehenga_style: ["Mermaid/fishtail lehenga", "Fitted lehenga", "A-line lehenga"]
+      choli_style: ["Fitted blouse", "Sweetheart neckline", "Deep back"]
+      best_fabrics: ["Silk", "Velvet", "Brocade"]
+      dupatta_draping: "Over one shoulder for an elegant drape"
+      why: "Fitted styles that follow natural curves create a stunning bridal or festive look"
+
+  - when:
+      body_shape: rectangle
+      gender: women
+    then:
+      category: indian_lehenga
+      lehenga_style: ["Panelled lehenga", "Flared lehenga", "Layered lehenga"]
+      choli_style: ["Peplum blouse", "Embellished blouse", "Off-shoulder blouse"]
+      best_fabrics: ["Net with heavy embroidery", "Silk with volume", "Organza layers"]
+      dupatta_draping: "Draped across both shoulders for fullness"
+      why: "Flared and layered styles create beautiful curves and dimension"
+
+  - when:
+      body_shape: triangle
+      gender: women
+    then:
+      category: indian_lehenga
+      lehenga_style: ["A-line lehenga", "Circular lehenga", "Flared lehenga"]
+      choli_style: ["Off-shoulder blouse", "Cape blouse", "Statement sleeve blouse"]
+      best_fabrics: ["Light, flowing fabrics for lehenga", "Embellished fabric for blouse"]
+      dupatta_draping: "Draped across shoulders to add width on top"
+      why: "Volume-balancing blouse styles with flowing lehengas create harmonious proportions"
+
+  # --- SALWAR KAMEEZ ---
+  - when:
+      body_shape: hourglass
+      gender: women
+    then:
+      category: indian_salwar
+      kameez_style: ["Fitted kurta", "Anarkali (defines waist)", "Short kameez with churidar"]
+      bottom_style: ["Churidar", "Slim-fit salwar", "Cigarette pants"]
+      why: "Fitted kameez with slim bottoms showcase the natural waistline"
+
+  - when:
+      body_shape: rectangle
+      gender: women
+    then:
+      category: indian_salwar
+      kameez_style: ["Anarkali suit (creates curves)", "Flared kurta", "Peplum kurta"]
+      bottom_style: ["Palazzo pants", "Sharara", "Flared salwar"]
+      why: "Flared silhouettes and volume create beautiful dimension"
+
+  - when:
+      body_shape: oval
+      gender: women
+    then:
+      category: indian_salwar
+      kameez_style: ["Straight-cut kurta", "A-line kurta", "Angrakha style"]
+      bottom_style: ["Straight-leg pants", "Palazzo pants", "Dhoti pants"]
+      why: "Straight and A-line silhouettes create a clean, elongated line"

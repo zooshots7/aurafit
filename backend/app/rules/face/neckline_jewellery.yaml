@@ -1,0 +1,102 @@
+# Neckline → Jewellery Pairing Rules
+
+rules:
+  - when:
+      neckline: v-neck
+    then:
+      category: jewellery_pairing
+      necklace:
+        best: ["Pendant necklaces that follow the V shape", "Y-chain necklaces", "Lariat necklaces"]
+        length: "16-20 inches, following the neckline angle"
+      earrings: ["Drop earrings", "Linear studs", "Dangles"]
+      why: "V-necklines are best complemented by jewellery that mirrors the V shape"
+
+  - when:
+      neckline: round
+    then:
+      category: jewellery_pairing
+      necklace:
+        best: ["Princess-length necklaces (17-19 inches)", "Collar necklaces", "Short pendants"]
+        length: "Sits just below the neckline, following the curve"
+      earrings: ["Studs", "Small hoops", "Button earrings"]
+      why: "Round necklines pair beautifully with curved necklaces that echo the shape"
+
+  - when:
+      neckline: crew
+    then:
+      category: jewellery_pairing
+      necklace:
+        best: ["Long pendant necklaces (24+ inches)", "Layered chains", "Opera-length strands"]
+        length: "Longer lengths create vertical lines and elongate"
+      earrings: ["Statement earrings", "Drop earrings", "Chandelier styles"]
+      why: "Higher necklines benefit from longer necklaces that create visual length"
+
+  - when:
+      neckline: boat
+    then:
+      category: jewellery_pairing
+      necklace:
+        best: ["Chokers", "Collar necklaces", "Short chains", "No necklace — let the neckline shine"]
+        length: "14-16 inches or skip the necklace entirely"
+      earrings: ["Statement earrings", "Chandelier drops", "Bold studs"]
+      why: "Boat necklines are already a statement — let bold earrings do the talking"
+
+  - when:
+      neckline: square
+    then:
+      category: jewellery_pairing
+      necklace:
+        best: ["Angular pendants", "Geometric shapes", "Bar necklaces", "Multi-strand chokers"]
+        length: "16-18 inches, complementing the angular neckline"
+      earrings: ["Geometric studs", "Angular drops", "Linear designs"]
+      why: "Square necklines are enhanced by geometric and angular jewellery that echoes the clean lines"
+
+  - when:
+      neckline: sweetheart
+    then:
+      category: jewellery_pairing
+      necklace:
+        best: ["Delicate chains", "Heart-shaped pendants", "Y-necklaces", "Short pendants"]
+        length: "16-18 inches, sitting just above the neckline curve"
+      earrings: ["Drop earrings", "Teardrop studs", "Delicate dangles"]
+      why: "Sweetheart necklines are romantic and pair beautifully with delicate, feminine jewellery"
+
+  - when:
+      neckline: off-shoulder
+    then:
+      category: jewellery_pairing
+      necklace:
+        best: ["Chokers", "Statement collar necklaces", "Short layered chains", "No necklace"]
+        length: "14-16 inches or none — the bare shoulder is the statement"
+      earrings: ["Chandelier earrings", "Long drops", "Statement studs"]
+      why: "Off-shoulder styles beautifully frame the face — statement earrings complete the look"
+
+  - when:
+      neckline: halter
+    then:
+      category: jewellery_pairing
+      necklace:
+        best: ["Skip the necklace — halter necklines are already ornamental", "Very short choker if needed"]
+        length: "None or 14 inches maximum"
+      earrings: ["Long drop earrings", "Chandelier styles", "Statement dangles"]
+      why: "Halter necklines frame the neck and shoulders — bold earrings and bracelets complement best"
+
+  - when:
+      neckline: strapless
+    then:
+      category: jewellery_pairing
+      necklace:
+        best: ["Statement necklaces", "Chokers", "Multi-strand designs", "Bib necklaces"]
+        length: "14-18 inches, filling the bare décolletage"
+      earrings: ["Studs", "Small hoops", "Let the necklace be the star"]
+      why: "Strapless necklines provide a beautiful canvas for statement necklaces"
+
+  - when:
+      neckline: collar
+    then:
+      category: jewellery_pairing
+      necklace:
+        best: ["Long chains worn over the collar", "Layered long necklaces", "No necklace"]
+        length: "24+ inches if wearing, or none"
+      earrings: ["Statement earrings", "Bold studs", "Hoops"]
+      why: "Collared necklines work best with longer necklaces worn over or with bold earrings instead"

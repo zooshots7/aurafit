@@ -1,0 +1,82 @@
+# Age-Based Styling Adjustments
+
+rules:
+  - when:
+      age_range: "18-25"
+    then:
+      category: age_styling
+      approach: "Experimental and trend-forward"
+      tips:
+        - "This is the best time to experiment with bold trends and statement pieces"
+        - "Mix high and low — invest in basics, have fun with trends"
+        - "Try different style identities and find what feels authentic"
+        - "Social media trends can inspire, but personal style matters more"
+      pattern_scale: "Bold, graphic, oversized prints work beautifully"
+      fit_notes: "Experiment with oversized, cropped, and unconventional fits"
+      fabric_budget: "Focus on fit over fabric — affordable basics that fit well"
+      indian_tip: "Modern cuts, fusion styles, bold colors — embrace contemporary Indian fashion"
+      why: "Your 20s are for exploration — try everything and discover what feels like you"
+
+  - when:
+      age_range: "26-35"
+    then:
+      category: age_styling
+      approach: "Building a refined personal style"
+      tips:
+        - "Start investing in quality staple pieces that last"
+        - "Develop a signature style that feels authentically you"
+        - "Balance trends with timeless pieces"
+        - "Quality tailoring makes everything look elevated"
+      pattern_scale: "Medium to bold — confident and intentional"
+      fit_notes: "Well-fitted, tailored — know your measurements"
+      fabric_budget: "Start investing in quality fabrics — wool, silk, quality cotton"
+      indian_tip: "Refined Indian wear with quality fabrics — start a curated ethnic wardrobe"
+      why: "Your late 20s and 30s are for building a signature wardrobe with quality investments"
+
+  - when:
+      age_range: "36-45"
+    then:
+      category: age_styling
+      approach: "Confident sophistication"
+      tips:
+        - "Your wardrobe should reflect confidence and self-knowledge"
+        - "Invest in fewer, better pieces"
+        - "Tailoring is your greatest tool — well-fitted basics elevate everything"
+        - "Classic pieces with modern touches keep the look fresh"
+      pattern_scale: "Medium — refined and intentional"
+      fit_notes: "Impeccable fit is everything — build a relationship with a good tailor"
+      fabric_budget: "Quality fabrics that drape well and age beautifully"
+      indian_tip: "Curated ethnic wardrobe with timeless pieces — silk sarees, tailored sherwanis"
+      why: "Your 40s bring confident style — fewer, better pieces that you love"
+
+  - when:
+      age_range: "46-55"
+    then:
+      category: age_styling
+      approach: "Refined elegance"
+      tips:
+        - "Classic silhouettes with subtle modern details"
+        - "Rich, sophisticated color palette"
+        - "Investment in quality is paramount — fewer, exceptional pieces"
+        - "Comfort and elegance are not mutually exclusive"
+      pattern_scale: "Refined — smaller to medium, elegant patterns"
+      fit_notes: "Relaxed elegance — well-fitted but comfortable"
+      fabric_budget: "Premium fabrics — cashmere, silk, fine wool, quality linen"
+      indian_tip: "Heritage handloom sarees, refined kurta sets, classic bandhgala"
+      why: "Your 50s are about refined elegance — quality, comfort, and timeless style"
+
+  - when:
+      age_range: "55+"
+    then:
+      category: age_styling
+      approach: "Timeless distinction"
+      tips:
+        - "Your style is your legacy — wear what brings you joy"
+        - "Comfort is essential — choose fabrics that feel wonderful"
+        - "Classic pieces in rich colors and quality fabrics"
+        - "Accessorize with meaningful pieces — vintage, heirloom, curated"
+      pattern_scale: "Classic — elegant prints and timeless patterns"
+      fit_notes: "Comfortable, dignified, well-fitted without restriction"
+      fabric_budget: "The finest fabrics — comfort and quality above all"
+      indian_tip: "Handloom silk sarees, elegant kurta sets, classic cuts — embrace heritage"
+      why: "Style after 55 is about timeless distinction and wearing what makes you feel wonderful"

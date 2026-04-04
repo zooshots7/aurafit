@@ -1,0 +1,199 @@
+# Color Season Analysis — 12 Sub-Seasons
+
+rules:
+  # --- SPRING ---
+  - when:
+      color_season: spring_light
+    then:
+      category: color_season
+      description: "Light, warm, and delicate coloring"
+      best_colors:
+        - { name: "Light Peach", hex: "#FFDAB9" }
+        - { name: "Warm Ivory", hex: "#FFFFF0" }
+        - { name: "Light Coral", hex: "#F08080" }
+        - { name: "Butter Yellow", hex: "#FFFACD" }
+        - { name: "Soft Aqua", hex: "#7FFFD4" }
+        - { name: "Warm Pink", hex: "#FFB6C1" }
+      neutrals: ["Camel", "Warm beige", "Light grey", "Ivory"]
+      metals: "Light gold, rose gold"
+      avoid_why: "Very dark or heavy colors can overwhelm light spring coloring — opt for lighter alternatives"
+      why: "Light spring coloring is enhanced by soft, warm, delicate tones"
+
+  - when:
+      color_season: spring_warm
+    then:
+      category: color_season
+      description: "Warm, golden, and vibrant coloring"
+      best_colors:
+        - { name: "Warm Coral", hex: "#FF7F50" }
+        - { name: "Golden Yellow", hex: "#FFD700" }
+        - { name: "Warm Green", hex: "#90EE90" }
+        - { name: "Peach", hex: "#FFDAB9" }
+        - { name: "Warm Turquoise", hex: "#40E0D0" }
+        - { name: "Salmon", hex: "#FA8072" }
+      neutrals: ["Golden brown", "Camel", "Warm beige", "Cream"]
+      metals: "Yellow gold, brass"
+      why: "Warm spring coloring glows in golden, coral, and warm vibrant tones"
+
+  - when:
+      color_season: spring_clear
+    then:
+      category: color_season
+      description: "Clear, warm, and high-contrast coloring"
+      best_colors:
+        - { name: "Bright Coral", hex: "#FF6347" }
+        - { name: "Warm Red", hex: "#DC143C" }
+        - { name: "Cobalt Blue", hex: "#0047AB" }
+        - { name: "Bright Yellow", hex: "#FFD700" }
+        - { name: "Emerald", hex: "#50C878" }
+        - { name: "Hot Pink", hex: "#FF69B4" }
+      neutrals: ["Navy", "Warm charcoal", "True white", "Warm brown"]
+      metals: "Bright gold, polished metals"
+      why: "Clear spring coloring is enhanced by vivid, clear, warm-based colors"
+
+  # --- SUMMER ---
+  - when:
+      color_season: summer_light
+    then:
+      category: color_season
+      description: "Light, cool, and soft coloring"
+      best_colors:
+        - { name: "Lavender", hex: "#E6E6FA" }
+        - { name: "Soft Pink", hex: "#FFB6C1" }
+        - { name: "Powder Blue", hex: "#B0E0E6" }
+        - { name: "Soft Rose", hex: "#FF69B4" }
+        - { name: "Mint", hex: "#98FF98" }
+        - { name: "Periwinkle", hex: "#CCCCFF" }
+      neutrals: ["Soft grey", "Cool taupe", "Off-white", "Light navy"]
+      metals: "Silver, white gold, platinum"
+      why: "Light summer coloring is enhanced by soft, cool, muted pastels"
+
+  - when:
+      color_season: summer_cool
+    then:
+      category: color_season
+      description: "Cool, blue-based coloring"
+      best_colors:
+        - { name: "Blue-Red", hex: "#C21E56" }
+        - { name: "Royal Purple", hex: "#7851A9" }
+        - { name: "Cool Rose", hex: "#E0115F" }
+        - { name: "Deep Lavender", hex: "#9370DB" }
+        - { name: "True Blue", hex: "#0000CD" }
+        - { name: "Cool Pink", hex: "#FF1493" }
+      neutrals: ["Charcoal", "Cool grey", "Navy", "Pure white"]
+      metals: "Silver, platinum, white gold"
+      why: "Cool summer coloring is enhanced by blue-based and jewel tones"
+
+  - when:
+      color_season: summer_soft
+    then:
+      category: color_season
+      description: "Soft, muted, and blended coloring"
+      best_colors:
+        - { name: "Dusty Rose", hex: "#DCAE96" }
+        - { name: "Sage", hex: "#B2AC88" }
+        - { name: "Mauve", hex: "#E0B0FF" }
+        - { name: "Dusty Blue", hex: "#6699CC" }
+        - { name: "Cocoa", hex: "#D2691E" }
+        - { name: "Soft Teal", hex: "#5F9EA0" }
+      neutrals: ["Greige", "Soft charcoal", "Cool beige", "Muted navy"]
+      metals: "Brushed silver, pewter, muted gold"
+      why: "Soft summer coloring is enhanced by dusty, muted, blended tones"
+
+  # --- AUTUMN ---
+  - when:
+      color_season: autumn_soft
+    then:
+      category: color_season
+      description: "Soft, warm, and muted coloring"
+      best_colors:
+        - { name: "Soft Olive", hex: "#808000" }
+        - { name: "Warm Tan", hex: "#D2B48C" }
+        - { name: "Dusty Coral", hex: "#CD5C5C" }
+        - { name: "Sage Green", hex: "#B2AC88" }
+        - { name: "Muted Gold", hex: "#BDB76B" }
+        - { name: "Soft Terracotta", hex: "#CC7F63" }
+      neutrals: ["Warm grey", "Camel", "Soft brown", "Cream"]
+      metals: "Antique gold, brushed brass"
+      why: "Soft autumn coloring glows in muted, warm, earthy tones"
+
+  - when:
+      color_season: autumn_warm
+    then:
+      category: color_season
+      description: "Rich, warm, golden coloring"
+      best_colors:
+        - { name: "Rust", hex: "#B7410E" }
+        - { name: "Olive", hex: "#708238" }
+        - { name: "Burnt Orange", hex: "#CC5500" }
+        - { name: "Terracotta", hex: "#E2725B" }
+        - { name: "Mustard", hex: "#FFDB58" }
+        - { name: "Forest Green", hex: "#228B22" }
+      neutrals: ["Chocolate brown", "Camel", "Warm beige", "Off-white"]
+      metals: "Gold, brass, copper"
+      why: "Warm autumn coloring is enhanced by rich, saturated earth tones"
+
+  - when:
+      color_season: autumn_deep
+    then:
+      category: color_season
+      description: "Deep, warm, rich coloring"
+      best_colors:
+        - { name: "Deep Rust", hex: "#8B3A3A" }
+        - { name: "Dark Olive", hex: "#556B2F" }
+        - { name: "Rich Burgundy", hex: "#800020" }
+        - { name: "Deep Teal", hex: "#003E3E" }
+        - { name: "Chocolate", hex: "#3C1414" }
+        - { name: "Deep Gold", hex: "#B8860B" }
+      neutrals: ["Espresso", "Dark olive", "Dark navy", "Charcoal brown"]
+      metals: "Antique gold, dark bronze"
+      why: "Deep autumn coloring is most enhanced by rich, deep, warm tones"
+
+  # --- WINTER ---
+  - when:
+      color_season: winter_deep
+    then:
+      category: color_season
+      description: "Deep, cool, dramatic coloring"
+      best_colors:
+        - { name: "True Red", hex: "#FF0000" }
+        - { name: "Royal Blue", hex: "#4169E1" }
+        - { name: "Deep Emerald", hex: "#006400" }
+        - { name: "Deep Purple", hex: "#4B0082" }
+        - { name: "True Black", hex: "#000000" }
+        - { name: "Deep Fuchsia", hex: "#C71585" }
+      neutrals: ["Black", "Dark navy", "Charcoal", "Pure white"]
+      metals: "Silver, platinum, dark metals"
+      why: "Deep winter coloring is enhanced by bold, dramatic, high-contrast colors"
+
+  - when:
+      color_season: winter_cool
+    then:
+      category: color_season
+      description: "Cool, icy, blue-based coloring"
+      best_colors:
+        - { name: "Icy Blue", hex: "#87CEEB" }
+        - { name: "Cool Fuchsia", hex: "#FF1493" }
+        - { name: "Electric Blue", hex: "#0000FF" }
+        - { name: "Cool Pink", hex: "#FF69B4" }
+        - { name: "Cool Plum", hex: "#8E4585" }
+        - { name: "Silver Grey", hex: "#C0C0C0" }
+      neutrals: ["Pure white", "Cool grey", "Navy", "Black"]
+      metals: "Silver, platinum, white gold"
+      why: "Cool winter coloring shines in icy, crisp, blue-based tones"
+
+  - when:
+      color_season: winter_clear
+    then:
+      category: color_season
+      description: "Clear, cool, high-contrast coloring"
+      best_colors:
+        - { name: "True Red", hex: "#FF0000" }
+        - { name: "Bright Pink", hex: "#FF1493" }
+        - { name: "Emerald", hex: "#00C957" }
+        - { name: "Cobalt", hex: "#0047AB" }
+        - { name: "Bright White", hex: "#FFFFFF" }
+        - { name: "Hot Pink", hex: "#FF69B4" }
+      neutrals: ["Pure black", "Pure white", "Navy", "Cool charcoal"]
+      metals: "Polished silver, platinum, bright metals"
+      why: "Clear winter coloring is enhanced by vivid, high-contrast, jewel-like colors"

@@ -1,0 +1,98 @@
+# Transformation Goal Styling Rules
+
+rules:
+  - when:
+      goal: look-taller
+    then:
+      category: transformation
+      clothing:
+        - "Monochrome outfits create an unbroken vertical line"
+        - "High-waisted trousers elongate the leg"
+        - "V-necklines draw the eye vertically"
+        - "Vertical stripes create length"
+        - "Pointed-toe shoes extend the leg line"
+        - "Tucked-in tops raise the visual waistline"
+      accessories:
+        - "Slim, vertical accessories like long pendants"
+        - "Nude shoes that blend with skin tone"
+        - "Slim belts that don't break the line"
+      colors: "Tonal dressing in similar shades creates visual height"
+      indian_tip: "High-waisted lehengas and long kurtas create vertical length"
+      why: "Visual height is created by unbroken vertical lines, tonal dressing, and high waistlines"
+
+  - when:
+      goal: look-slimmer
+    then:
+      category: transformation
+      clothing:
+        - "Dark, solid colors create a streamlined silhouette"
+        - "Structured fabrics with gentle drape"
+        - "Vertical details and seaming"
+        - "Well-fitted (not tight) clothing in quality fabrics"
+        - "Single-color outfits or tonal dressing"
+        - "V-necklines elongate the torso"
+      accessories:
+        - "Vertical necklaces and long pendants"
+        - "Elongating earrings"
+        - "Proportional accessories"
+      colors: "Dark neutrals as base — navy, charcoal, black — with accent colors at focal points"
+      indian_tip: "Straight-cut kurtas, vertical embroidery, and flowing drapes"
+      why: "A streamlined appearance comes from vertical lines, dark tones, and well-structured fabrics"
+
+  - when:
+      goal: look-broader
+    then:
+      category: transformation
+      clothing:
+        - "Horizontal stripes add visual width"
+        - "Structured shoulders and padded blazers"
+        - "Layered outfits create dimension"
+        - "Double-breasted jackets add chest width"
+        - "Lighter colors on upper body"
+        - "Textured fabrics add visual weight"
+      accessories:
+        - "Wider belts and watch straps"
+        - "Substantial accessories"
+        - "Boat neck and wide necklines"
+      colors: "Lighter, brighter colors on upper body; darker tones on lower"
+      indian_tip: "Structured bandhgala jackets, embroidered kurtas with chest detail"
+      why: "Visual width is created by horizontal lines, structured shoulders, and layered textures"
+
+  - when:
+      goal: look-professional
+    then:
+      category: transformation
+      clothing:
+        - "Invest in well-tailored blazers and trousers"
+        - "Quality fabrics like wool blend, cotton poplin"
+        - "Structured pieces over casual basics"
+        - "Dark neutral palette with strategic color accents"
+        - "Polished shoes — leather oxfords, pumps, or loafers"
+        - "Iron and maintain garments carefully"
+      accessories:
+        - "Quality leather belt and watch"
+        - "Structured bag or briefcase"
+        - "Minimal, refined jewellery"
+        - "Well-groomed appearance"
+      colors: "Navy, charcoal, and grey as foundation with accent from personal palette"
+      indian_tip: "Well-fitted bandhgala, structured kurta with clean lines"
+      why: "Professional appearance is built on fit, fabric quality, and attention to detail"
+
+  - when:
+      goal: age-appropriate
+    then:
+      category: transformation
+      clothing:
+        - "Quality over quantity — invest in timeless pieces"
+        - "Well-fitted, never too tight or too loose"
+        - "Classic silhouettes with modern touches"
+        - "Sophisticated fabrics — cashmere, silk, quality cotton"
+        - "Structured pieces that show intentionality"
+      accessories:
+        - "Quality timepiece"
+        - "Real or high-quality jewellery"
+        - "Structured bags in quality leather"
+        - "Classic shoes in good condition"
+      colors: "Rich, sophisticated tones — avoid overly bright or neon unless it's your style"
+      indian_tip: "Classic sarees in rich fabrics, refined kurta sets, sophisticated prints"
+      why: "Age-appropriate style focuses on quality, fit, and timeless elegance"

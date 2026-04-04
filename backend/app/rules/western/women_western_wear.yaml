@@ -1,0 +1,68 @@
+# Western Wear Recommendations for Women by Body Shape
+
+rules:
+  - when:
+      body_shape: hourglass
+      gender: women
+    then:
+      category: western_women
+      dresses: ["Wrap dresses", "Bodycon dresses", "Fit-and-flare", "Shirt dresses with belt"]
+      tops: ["Fitted V-neck tees", "Wrap blouses", "Peplum tops", "Tucked-in button-downs"]
+      bottoms: ["High-waisted jeans", "Pencil skirts", "Tailored trousers", "A-line midi skirts"]
+      outerwear: ["Belted trench coat", "Fitted blazer", "Wrap coat", "Cropped leather jacket"]
+      why: "Hourglass figures shine in styles that follow and define the natural waistline"
+
+  - when:
+      body_shape: rectangle
+      gender: women
+    then:
+      category: western_women
+      dresses: ["Peplum dresses", "Ruched wrap dresses", "Fit-and-flare", "Belted shirt dresses"]
+      tops: ["Off-shoulder tops", "Ruffled blouses", "Crop tops with high-waisted bottoms", "Layered tops"]
+      bottoms: ["Wide-leg trousers", "Flared jeans", "A-line skirts", "Paper bag waist pants"]
+      outerwear: ["Structured blazer with nipped waist", "Belted coat", "Cropped jacket", "Puffer vest"]
+      why: "Rectangle figures are enhanced by creating waist definition through silhouette and detail"
+
+  - when:
+      body_shape: triangle
+      gender: women
+    then:
+      category: western_women
+      dresses: ["A-line dresses", "Empire waist dresses", "Off-shoulder dress", "Shift dress"]
+      tops: ["Boat neck tops", "Statement shoulder blouses", "Structured blazers", "Embellished necklines"]
+      bottoms: ["Dark wash bootcut jeans", "Wide-leg trousers in dark tones", "A-line skirts", "Straight-leg pants"]
+      outerwear: ["Structured blazer", "Cape coat", "Statement collar jacket", "Bomber jacket"]
+      why: "Pear/triangle shapes are balanced by drawing attention to the upper body with detail and structure"
+
+  - when:
+      body_shape: inverted-triangle
+      gender: women
+    then:
+      category: western_women
+      dresses: ["V-neck dresses", "Full-skirted dresses", "Wrap dresses", "A-line dresses"]
+      tops: ["V-neck tees", "Halter tops (with full skirt)", "Raglan sleeve tops", "Cowl neck sweaters"]
+      bottoms: ["Wide-leg trousers", "Full skirts", "Palazzo pants", "Flared jeans"]
+      outerwear: ["Long cardigan", "Unstructured blazer", "Duster coat", "Wrap coat"]
+      why: "Inverted-triangle shapes are balanced by adding volume to the lower body while softening the upper"
+
+  - when:
+      body_shape: oval
+      gender: women
+    then:
+      category: western_women
+      dresses: ["Empire waist dresses", "Wrap dresses", "Shift dresses", "Longline shirt dresses"]
+      tops: ["V-neck tops", "Longline blouses", "Tunic tops", "Wrap tops"]
+      bottoms: ["Straight-leg trousers", "Wide-leg pants", "A-line skirts", "Boot-cut jeans"]
+      outerwear: ["Longline blazer", "Duster cardigan", "Waterfall jacket", "Long trench coat"]
+      why: "Oval shapes are most enhanced by vertical lines and elongating silhouettes"
+
+  - when:
+      body_shape: pear
+      gender: women
+    then:
+      category: western_women
+      dresses: ["Fit-and-flare dresses", "A-line dresses", "Empire waist", "Structured bodice with flowy skirt"]
+      tops: ["Boat neck tops", "Off-shoulder styles", "Statement sleeves", "Embellished necklines"]
+      bottoms: ["Dark bootcut jeans", "A-line midi skirts", "Wide-leg trousers", "Dark straight-leg pants"]
+      outerwear: ["Structured blazer", "Statement collar coat", "Cape jacket", "Cropped jacket"]
+      why: "Pear shapes are beautifully balanced by enhancing upper body presence"

@@ -1,0 +1,62 @@
+# Western Wear Recommendations for Men by Body Shape
+
+rules:
+  - when:
+      body_shape: rectangle
+      gender: men
+    then:
+      category: western_men
+      suits: ["Double-breasted suits", "Structured blazers with padded shoulders", "Peak lapel suits"]
+      shirts: ["Horizontal stripe shirts", "Textured shirts", "Layered looks", "Patterned button-downs"]
+      trousers: ["Slim-fit chinos", "Straight-leg jeans", "Pleated trousers for formality"]
+      casual: ["Layered tees and open shirts", "Textured knit sweaters", "Denim jackets"]
+      outerwear: ["Bomber jackets", "Shearling coats", "Puffer jackets", "Military jackets"]
+      why: "Rectangle frames are enhanced by dimension, layering, and structured shoulder details"
+
+  - when:
+      body_shape: inverted-triangle
+      gender: men
+    then:
+      category: western_men
+      suits: ["Single-breasted two-button suits", "Notch lapel suits", "Minimal shoulder padding"]
+      shirts: ["V-neck sweaters", "Henley shirts", "Simple button-downs", "Solid color tees"]
+      trousers: ["Straight-leg or relaxed fit", "Lighter colored chinos", "Bootcut jeans"]
+      casual: ["Relaxed crew neck tees", "Open collar shirts", "Raglan sleeve tops"]
+      outerwear: ["Unstructured blazers", "Harrington jackets", "Long overcoats", "Cardigan sweaters"]
+      why: "Inverted-triangle frames are balanced by softening shoulders and adding lower body volume"
+
+  - when:
+      body_shape: triangle
+      gender: men
+    then:
+      category: western_men
+      suits: ["Structured shoulder suits", "Peak lapel suits", "Double-breasted blazers"]
+      shirts: ["Horizontal stripes on top", "Bright patterned shirts", "Oxford shirts", "Structured polo shirts"]
+      trousers: ["Dark straight-leg trousers", "Dark jeans", "Flat-front chinos"]
+      casual: ["Layered jackets and shirts", "Statement outerwear", "Graphic tees with blazer"]
+      outerwear: ["Structured coats", "Padded jackets", "Peacoats", "Leather jackets"]
+      why: "Triangle frames are balanced by building presence in the upper body"
+
+  - when:
+      body_shape: trapezoid
+      gender: men
+    then:
+      category: western_men
+      suits: ["Classic single-breasted suits", "Most suit styles work well", "Notch or peak lapel"]
+      shirts: ["Well-fitted button-downs", "Slim crew necks", "Classic polo shirts"]
+      trousers: ["Slim-fit chinos", "Straight-leg jeans", "Tailored trousers"]
+      casual: ["Most casual styles work well", "Focus on fit and quality", "Classic basics"]
+      outerwear: ["Most styles complement this frame", "Focus on fit — tailored and proportional"]
+      why: "Trapezoid is the most proportional male frame — focus on fit quality over correction"
+
+  - when:
+      body_shape: oval
+      gender: men
+    then:
+      category: western_men
+      suits: ["Single-breasted vertical pinstripe suits", "Longer jacket length", "Flat-front trousers"]
+      shirts: ["V-neck sweaters", "Vertical stripe shirts", "Untucked over tucked for casual", "Dark solid tees"]
+      trousers: ["Straight-leg flat-front trousers", "Dark jeans", "Monochrome with top"]
+      casual: ["Longline tees", "Dark monochrome outfits", "V-neck layering"]
+      outerwear: ["Longline overcoats", "Vertical-detail jackets", "Dark structured blazers"]
+      why: "Oval frames are most elongated by vertical lines, V-necklines, and monochrome dressing"

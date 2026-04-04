@@ -1,0 +1,77 @@
+# Indian Wear Styling Rules for Men
+
+rules:
+  - when:
+      body_shape: rectangle
+      gender: men
+    then:
+      category: indian_men
+      kurta:
+        best: ["Textured kurta with embroidery", "Layered nehru jacket over kurta", "Printed kurta"]
+        fit: "Slightly fitted with layering for dimension"
+      sherwani:
+        best: ["Embroidered sherwani with structured shoulders", "Double-breasted bandhgala"]
+        fit: "Padded shoulders for a broader silhouette"
+      pathani:
+        best: ["Pathani suit with textured fabric", "Contrast waistcoat over pathani"]
+      why: "Layering and texture add dimension to a rectangular frame"
+
+  - when:
+      body_shape: inverted-triangle
+      gender: men
+    then:
+      category: indian_men
+      kurta:
+        best: ["Straight-cut kurta", "Kurta with minimal shoulder detail", "V-neck kurta"]
+        fit: "Relaxed through the torso, straight hem"
+      sherwani:
+        best: ["Single-breasted sherwani", "Minimal shoulder padding", "Longer length sherwani"]
+        fit: "Natural shoulders, fitted through the waist"
+      pathani:
+        best: ["Relaxed pathani in soft fabric", "Flared bottom pathani"]
+      why: "Straight cuts and minimal shoulder detail create beautiful balance with broader shoulders"
+
+  - when:
+      body_shape: triangle
+      gender: men
+    then:
+      category: indian_men
+      kurta:
+        best: ["Structured kurta with nehru collar", "Layered with structured jacket", "Broad neckline kurta"]
+        fit: "Structured upper body, straight through hips"
+      sherwani:
+        best: ["Structured shoulders", "Embellished upper body", "Peak lapel bandhgala"]
+        fit: "Build shoulder presence, dark lower half"
+      pathani:
+        best: ["Structured pathani with collar detail", "Contrast jacket overlay"]
+      why: "Building upper body structure creates proportional balance"
+
+  - when:
+      body_shape: trapezoid
+      gender: men
+    then:
+      category: indian_men
+      kurta:
+        best: ["Most kurta styles work well", "Fitted kurta", "Classic kurta pajama"]
+        fit: "Well-fitted following body lines"
+      sherwani:
+        best: ["Classic tailored sherwani", "Modern minimalist bandhgala", "Most styles suit well"]
+        fit: "Follow natural body lines with clean tailoring"
+      pathani:
+        best: ["Classic pathani suit", "Most styles complement this frame"]
+      why: "A proportional frame carries most Indian silhouettes beautifully — focus on quality fit"
+
+  - when:
+      body_shape: oval
+      gender: men
+    then:
+      category: indian_men
+      kurta:
+        best: ["Straight-cut long kurta", "Angrakha style kurta", "Vertical embroidery kurta"]
+        fit: "Straight and elongating, not fitted"
+      sherwani:
+        best: ["Longer length sherwani", "Vertical embroidery", "Single-breasted"]
+        fit: "Longer cuts with vertical details"
+      pathani:
+        best: ["Straight-cut pathani", "Dark solid colors", "Vertical stripe kurta"]
+      why: "Vertical lines and longer cuts create an elongated, refined silhouette"

@@ -1,0 +1,74 @@
+# Men's Accessories: Belts, Watches, and Wallets by Frame
+
+rules:
+  - when:
+      body_build: slim
+      gender: men
+    then:
+      category: mens_accessories
+      belt:
+        width: "Narrow (1-1.25 inches)"
+        style: ["Slim leather belt", "Woven belt", "Minimalist buckle"]
+        tip: "Slim belts complement a slender frame proportionally"
+      watch:
+        case_size: "Small to medium (36-40mm)"
+        style: ["Minimalist dress watch", "Slim leather strap", "Mesh bracelet"]
+        tip: "Proportionally sized watches look most natural"
+      wallet:
+        style: ["Slim card holder", "Bifold wallet", "Minimalist wallet"]
+        tip: "Slim wallets suit a streamlined aesthetic"
+      why: "Slim frames are complemented by proportionally scaled accessories"
+
+  - when:
+      body_build: athletic
+      gender: men
+    then:
+      category: mens_accessories
+      belt:
+        width: "Medium (1.25-1.5 inches)"
+        style: ["Classic leather belt", "Braided belt", "Casual fabric belt"]
+        tip: "Medium-width belts balance an athletic frame well"
+      watch:
+        case_size: "Medium (40-44mm)"
+        style: ["Sport watch", "Chronograph", "Diver watch", "Casual leather strap"]
+        tip: "Sport and dive watches complement an active build"
+      wallet:
+        style: ["Classic bifold", "Leather card holder", "Sport wallet"]
+        tip: "Durable materials match an active lifestyle"
+      why: "Athletic builds carry sport-inspired accessories with confidence"
+
+  - when:
+      body_build: average
+      gender: men
+    then:
+      category: mens_accessories
+      belt:
+        width: "Medium (1.25-1.5 inches)"
+        style: ["Classic leather belt", "Reversible belt", "Textured leather"]
+        tip: "Most belt widths work well — focus on quality"
+      watch:
+        case_size: "Medium (38-42mm)"
+        style: ["Dress watch", "Casual watch", "Most styles work well"]
+        tip: "Mid-size watches are versatile and proportional"
+      wallet:
+        style: ["Classic bifold", "Trifold", "Card holder"]
+        tip: "Choose based on carry preference and style"
+      why: "Average builds have the most flexibility in accessory sizing"
+
+  - when:
+      body_build: broad
+      gender: men
+    then:
+      category: mens_accessories
+      belt:
+        width: "Wide (1.5-1.75 inches)"
+        style: ["Substantial leather belt", "Western-style belt", "Bold buckle"]
+        tip: "Wider belts look proportional on a broader frame"
+      watch:
+        case_size: "Large (44-48mm)"
+        style: ["Oversized sport watch", "Large chronograph", "Statement watch"]
+        tip: "Larger watches balance a broad wrist proportionally"
+      wallet:
+        style: ["Full-size bifold", "Travel wallet", "Substantial leather wallet"]
+        tip: "Substantial accessories match a broader frame"
+      why: "Broader frames carry larger, more substantial accessories with ease"

@@ -1,0 +1,74 @@
+# Proportion-Based Styling Rules
+
+rules:
+  # --- LONG TORSO ---
+  - when:
+      torso_leg_ratio: long-torso
+    then:
+      category: proportions
+      best:
+        - High-rise trousers and jeans
+        - Tucked-in tops
+        - Cropped jackets and blazers
+        - Empire waist dresses
+        - Wide belts at natural waist
+        - Shorter tops and hemlines
+      good:
+        - Color-blocking with darker top, lighter bottom
+        - Horizontal details at hip level
+        - Boot-cut and flared bottoms
+      why: "A longer torso is beautifully balanced by raising the visual waistline and adding length to the lower body"
+
+  # --- LONG LEGS ---
+  - when:
+      torso_leg_ratio: long-legs
+    then:
+      category: proportions
+      best:
+        - Low to mid-rise trousers
+        - Longer tops and tunics
+        - Drop-waist dresses
+        - Cuffed trousers
+        - Layered tops
+        - Belts worn at hip level
+      good:
+        - Color-blocking with lighter top, darker bottom
+        - Horizontal details at chest level
+        - Ankle boots that break the leg line
+      why: "Longer legs are balanced by adding visual weight and length to the upper body"
+
+  # --- BROAD SHOULDERS ---
+  - when:
+      shoulder_hip_ratio: broad-shoulder
+    then:
+      category: proportions
+      best:
+        - V-necklines
+        - Raglan sleeves
+        - Set-in sleeves without padding
+        - Darker upper body tones
+        - Straight-leg or wide-leg bottoms
+        - Single-breasted jackets
+      good:
+        - Vertical details on top
+        - A-line skirts for women
+        - Bootcut jeans
+      why: "Broader shoulders are balanced by softening the shoulder line and adding visual width to the lower body"
+
+  # --- WIDE HIPS ---
+  - when:
+      shoulder_hip_ratio: wide-hip
+    then:
+      category: proportions
+      best:
+        - Structured shoulder details
+        - Boat neck and wide necklines
+        - Statement earrings and necklaces
+        - A-line and flared bottoms
+        - Dark-toned bottoms
+        - Bright patterns on top
+      good:
+        - Padded shoulder blazers
+        - Puff sleeves
+        - Empire waist dresses
+      why: "Wider hips are beautifully balanced by building visual presence in the upper body"

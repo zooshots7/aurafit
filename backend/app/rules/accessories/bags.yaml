@@ -1,0 +1,63 @@
+# Bag Recommendations by Height and Body Type
+
+rules:
+  - when:
+      height_category: petite
+      gender: women
+    then:
+      category: bags
+      best: ["Small to medium crossbody bags", "Mini bags", "Clutches", "Small structured handbags"]
+      good: ["Medium tote bags", "Saddle bags", "Small bucket bags"]
+      tips:
+        - "Proportionally smaller bags complement a petite frame best"
+        - "Avoid oversized bags that can overwhelm your frame"
+        - "Crossbody bags worn at hip level elongate the torso"
+      why: "Petite frames are best complemented by proportionally sized bags that don't overwhelm"
+
+  - when:
+      height_category: tall
+      gender: women
+    then:
+      category: bags
+      best: ["Large totes", "Oversized bags", "Hobo bags", "Structured satchels"]
+      good: ["Medium crossbody bags", "Bucket bags", "Shoulder bags"]
+      tips:
+        - "Taller frames carry larger bags beautifully and proportionally"
+        - "Long-strap bags at hip level look elegant"
+        - "Both structured and relaxed styles work well"
+      why: "Taller frames are balanced by substantial bags that match their proportions"
+
+  - when:
+      height_category: petite
+      gender: men
+    then:
+      category: bags
+      best: ["Slim messenger bags", "Compact crossbody bags", "Slim briefcases", "Small backpacks"]
+      good: ["Compact laptop bags", "Document holders"]
+      tips:
+        - "Slim, streamlined bags maintain clean proportions"
+        - "Avoid bulky backpacks that overwhelm your frame"
+      why: "Streamlined bags maintain the proportional balance of a shorter frame"
+
+  - when:
+      height_category: tall
+      gender: men
+    then:
+      category: bags
+      best: ["Full-size messenger bags", "Laptop backpacks", "Weekender bags", "Large briefcases"]
+      good: ["Tote bags", "Duffle bags", "Crossbody bags"]
+      tips:
+        - "Taller frames carry larger bags with ease"
+        - "Proportionally larger bags look natural and balanced"
+      why: "Larger bags complement taller proportions naturally"
+
+  - when:
+      height_category: average
+    then:
+      category: bags
+      best: ["Medium-sized bags work best", "Most bag styles are versatile"]
+      good: ["Match bag size to occasion and outfit", "Both structured and relaxed work"]
+      tips:
+        - "Average height allows the most versatility in bag sizing"
+        - "Choose based on occasion and personal style"
+      why: "Average height provides flexibility — most bag sizes work proportionally"

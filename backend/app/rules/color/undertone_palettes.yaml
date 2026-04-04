@@ -1,0 +1,110 @@
+# Color Recommendations by Skin Undertone
+
+rules:
+  # --- WARM UNDERTONE ---
+  - when:
+      undertone: warm
+    then:
+      category: color_palette
+      best_colors:
+        - { name: "Rust", hex: "#B7410E" }
+        - { name: "Camel", hex: "#C19A6B" }
+        - { name: "Olive", hex: "#708238" }
+        - { name: "Terracotta", hex: "#E2725B" }
+        - { name: "Warm Gold", hex: "#D4A017" }
+        - { name: "Coral", hex: "#FF7F50" }
+        - { name: "Peach", hex: "#FFDAB9" }
+        - { name: "Cream", hex: "#FFFDD0" }
+      good_colors:
+        - { name: "Forest Green", hex: "#228B22" }
+        - { name: "Burnt Orange", hex: "#CC5500" }
+        - { name: "Warm Brown", hex: "#8B4513" }
+        - { name: "Teal", hex: "#008080" }
+      best_neutrals:
+        - { name: "Off-White", hex: "#FAF0E6" }
+        - { name: "Caramel", hex: "#FFD59A" }
+        - { name: "Chocolate", hex: "#3C1414" }
+        - { name: "Khaki", hex: "#C3B091" }
+      metals: "Gold, rose gold, brass, and copper tones complement warm undertones beautifully"
+      why: "Warm undertones are most enhanced by earthy, golden, and rich warm tones that echo natural warmth"
+
+  # --- COOL UNDERTONE ---
+  - when:
+      undertone: cool
+    then:
+      category: color_palette
+      best_colors:
+        - { name: "Royal Blue", hex: "#4169E1" }
+        - { name: "Emerald", hex: "#50C878" }
+        - { name: "Plum", hex: "#8E4585" }
+        - { name: "Raspberry", hex: "#E30B5C" }
+        - { name: "Icy Pink", hex: "#FFD1DC" }
+        - { name: "Lavender", hex: "#E6E6FA" }
+        - { name: "Navy", hex: "#000080" }
+        - { name: "Cool Grey", hex: "#8C92AC" }
+      good_colors:
+        - { name: "Burgundy", hex: "#800020" }
+        - { name: "Mauve", hex: "#E0B0FF" }
+        - { name: "Pine Green", hex: "#01796F" }
+        - { name: "Soft Blue", hex: "#87CEEB" }
+      best_neutrals:
+        - { name: "Pure White", hex: "#FFFFFF" }
+        - { name: "Charcoal", hex: "#36454F" }
+        - { name: "True Black", hex: "#000000" }
+        - { name: "Cool Taupe", hex: "#8B8589" }
+      metals: "Silver, platinum, white gold, and pewter complement cool undertones beautifully"
+      why: "Cool undertones are most enhanced by jewel tones, icy pastels, and blue-based colors that complement natural coolness"
+
+  # --- NEUTRAL UNDERTONE ---
+  - when:
+      undertone: neutral
+    then:
+      category: color_palette
+      best_colors:
+        - { name: "Dusty Rose", hex: "#DCAE96" }
+        - { name: "Jade Green", hex: "#00A86B" }
+        - { name: "Soft Teal", hex: "#5F9EA0" }
+        - { name: "Medium Blue", hex: "#0000CD" }
+        - { name: "Blush", hex: "#DE5D83" }
+        - { name: "Sage", hex: "#B2AC88" }
+        - { name: "Dusty Lavender", hex: "#B4A7D6" }
+        - { name: "Rose Gold", hex: "#B76E79" }
+      good_colors:
+        - { name: "Most colors work well", hex: "#808080" }
+        - { name: "Muted tones are especially flattering", hex: "#696969" }
+        - { name: "Soft pastels", hex: "#F0E68C" }
+        - { name: "Medium-intensity colors", hex: "#CD853F" }
+      best_neutrals:
+        - { name: "Soft White", hex: "#F5F5F5" }
+        - { name: "Greige", hex: "#BEBDB8" }
+        - { name: "Warm Grey", hex: "#808080" }
+        - { name: "True Navy", hex: "#000080" }
+      metals: "Both gold and silver work beautifully — rose gold is especially flattering on neutral undertones"
+      why: "Neutral undertones have the most versatility — muted, dusty tones and soft colors enhance natural balance"
+
+  # --- OLIVE UNDERTONE ---
+  - when:
+      undertone: olive
+    then:
+      category: color_palette
+      best_colors:
+        - { name: "Rust", hex: "#B7410E" }
+        - { name: "Olive Green", hex: "#708238" }
+        - { name: "Marsala", hex: "#955251" }
+        - { name: "Warm Plum", hex: "#8E4585" }
+        - { name: "Burnt Sienna", hex: "#E97451" }
+        - { name: "Deep Teal", hex: "#003E3E" }
+        - { name: "Ivory", hex: "#FFFFF0" }
+        - { name: "Warm Coral", hex: "#F88379" }
+      good_colors:
+        - { name: "Mustard", hex: "#FFDB58" }
+        - { name: "Terracotta", hex: "#E2725B" }
+        - { name: "Deep Green", hex: "#006400" }
+        - { name: "Rich Brown", hex: "#654321" }
+      best_neutrals:
+        - { name: "Ecru", hex: "#C2B280" }
+        - { name: "Warm Beige", hex: "#C8AD7F" }
+        - { name: "Deep Charcoal", hex: "#36454F" }
+        - { name: "Espresso", hex: "#3C1414" }
+      metals: "Gold, antique gold, and rose gold complement olive undertones most beautifully"
+      why: "Olive undertones are enhanced by warm earth tones and rich, saturated colors that complement the green-golden base"

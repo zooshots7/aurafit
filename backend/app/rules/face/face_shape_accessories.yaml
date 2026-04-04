@@ -1,0 +1,92 @@
+# Face Shape → Accessories, Glasses, Earrings, Hairstyle Recommendations
+
+rules:
+  - when:
+      face_shape: oval
+    then:
+      category: face_accessories
+      glasses:
+        best: ["Most frame shapes work well", "Walnut or geometric frames", "Aviators", "Cat-eye"]
+        tip: "An oval face is the most versatile — experiment with different frame shapes"
+      earrings:
+        best: ["Most earring styles work beautifully", "Studs", "Hoops", "Drops", "Chandeliers"]
+        tip: "Balance is natural, so choose earrings based on personal style"
+      hairstyle_women: ["Side-swept layers", "Long waves", "Bob", "Pixie cut", "Most styles suit well"]
+      hairstyle_men: ["Textured crop", "Side part", "Quiff", "Most styles suit well"]
+      sunglasses: ["Aviator", "Wayfarer", "Round", "Cat-eye — most shapes work"]
+      why: "An oval face has balanced proportions — most accessories and styles enhance it beautifully"
+
+  - when:
+      face_shape: round
+    then:
+      category: face_accessories
+      glasses:
+        best: ["Angular and rectangular frames", "Cat-eye frames", "Geometric shapes"]
+        tip: "Angular frames add definition and lengthen the face beautifully"
+      earrings:
+        best: ["Long drop earrings", "Angular shapes", "Linear designs", "Geometric studs"]
+        tip: "Elongated earring shapes create a lengthening effect"
+      hairstyle_women: ["Long layers", "Side-swept bangs", "Angular bob", "Volume at the crown"]
+      hairstyle_men: ["Quiff", "Pompadour", "Textured top with short sides", "Angular fringe"]
+      sunglasses: ["Rectangular", "Wayfarer", "Cat-eye", "Angular shapes"]
+      why: "A round face is enhanced by angular and elongating shapes that add definition"
+
+  - when:
+      face_shape: square
+    then:
+      category: face_accessories
+      glasses:
+        best: ["Round frames", "Oval frames", "Cat-eye with soft curves", "Rimless"]
+        tip: "Curved frames soften strong jawline features beautifully"
+      earrings:
+        best: ["Round hoops", "Curved drops", "Teardrop shapes", "Pearl studs"]
+        tip: "Soft, curved earring shapes complement strong features"
+      hairstyle_women: ["Soft waves", "Side-swept styles", "Layered cuts", "Wispy bangs"]
+      hairstyle_men: ["Textured fringe", "Messy waves", "Side part with soft volume"]
+      sunglasses: ["Round", "Oval", "Aviator", "Soft-curved frames"]
+      why: "A square face is beautifully softened by rounded and curved accessories"
+
+  - when:
+      face_shape: heart
+    then:
+      category: face_accessories
+      glasses:
+        best: ["Bottom-heavy frames", "Cat-eye", "Oval frames", "Light-colored frames"]
+        tip: "Frames that add width at the jawline create beautiful balance"
+      earrings:
+        best: ["Chandelier earrings", "Teardrop shapes", "Wide-bottom designs", "Triangle shapes (wide at bottom)"]
+        tip: "Earrings that widen at the bottom balance a narrower chin"
+      hairstyle_women: ["Chin-length bob", "Side-swept bangs", "Layers below the chin", "Soft waves"]
+      hairstyle_men: ["Medium-length styles", "Textured layers", "Side-swept fringe"]
+      sunglasses: ["Cat-eye", "Aviator", "Bottom-heavy frames"]
+      why: "A heart-shaped face is enhanced by adding visual width at the jawline and chin"
+
+  - when:
+      face_shape: oblong
+    then:
+      category: face_accessories
+      glasses:
+        best: ["Wide frames", "Oversized styles", "Round frames", "Decorative temples"]
+        tip: "Wide frames add visual width and balance length"
+      earrings:
+        best: ["Wide studs", "Cluster earrings", "Short wide drops", "Hoops"]
+        tip: "Wider earring shapes add balance to a longer face"
+      hairstyle_women: ["Bangs", "Chin-length bob", "Waves and curls", "Volume at the sides"]
+      hairstyle_men: ["Fringe or bangs", "Side-volume styles", "Textured medium length"]
+      sunglasses: ["Oversized", "Wide round", "Wayfarer", "Shield styles"]
+      why: "An oblong face is beautifully balanced by adding visual width with wider accessories"
+
+  - when:
+      face_shape: diamond
+    then:
+      category: face_accessories
+      glasses:
+        best: ["Cat-eye frames", "Oval frames", "Rimless styles", "Browline frames"]
+        tip: "Frames that highlight the eyes and add width at the temples"
+      earrings:
+        best: ["Linear drops", "Chandelier styles", "Wide studs", "Fan-shaped earrings"]
+        tip: "Earrings that add width at the forehead or jawline create balance"
+      hairstyle_women: ["Side-swept bangs", "Chin-length layers", "Soft volume at the forehead", "Wispy layers"]
+      hairstyle_men: ["Volume at the forehead", "Side part", "Textured medium styles"]
+      sunglasses: ["Cat-eye", "Oval", "Browline", "Rimless"]
+      why: "A diamond face is enhanced by adding width at the forehead and jawline while highlighting the cheekbones"

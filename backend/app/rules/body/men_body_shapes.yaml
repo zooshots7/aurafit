@@ -1,0 +1,142 @@
+# Men's Body Shape Styling Rules
+
+rules:
+  # --- RECTANGLE ---
+  - when:
+      body_shape: rectangle
+      gender: men
+    then:
+      category: clothing_silhouettes
+      best:
+        - Layered outfits for dimension
+        - Structured blazers with padded shoulders
+        - Horizontal stripe tees
+        - Textured fabrics
+        - Double-breasted jackets
+        - Casual jackets with chest pockets
+      good:
+        - Slim-fit jeans
+        - Chinos with a slight taper
+        - Crew neck sweaters
+      suit_advice:
+        - Structured shoulders with light padding
+        - Double-breasted styles add visual width
+        - Peak lapels create a broader chest appearance
+      casual_advice:
+        - Layer with open shirts over tees for dimension
+        - Patterns and textures add visual interest
+        - Horizontal elements create breadth
+      why: "A rectangular frame is enhanced by adding visual dimension through layers, textures, and structured shoulders"
+
+  # --- INVERTED TRIANGLE ---
+  - when:
+      body_shape: inverted-triangle
+      gender: men
+    then:
+      category: clothing_silhouettes
+      best:
+        - V-neck sweaters and tees
+        - Straight-leg or relaxed-fit trousers
+        - Single-breasted jackets
+        - Raglan sleeve tops
+        - Dark upper, light lower combinations
+        - Open collar shirts
+      good:
+        - Relaxed-fit jeans
+        - Unstructured blazers
+        - Henley shirts
+      suit_advice:
+        - Single-breasted, two-button suits
+        - Notch lapels for a softer shoulder line
+        - Minimal shoulder padding
+        - Lighter colored trousers balance proportions
+      casual_advice:
+        - Straight-leg or bootcut jeans balance broader shoulders
+        - Solid dark tops with lighter bottoms create harmony
+        - Vertical stripes on top streamline the upper body
+      why: "An inverted-triangle frame is most balanced by drawing attention downward with lighter bottoms and softer shoulder lines"
+
+  # --- TRIANGLE ---
+  - when:
+      body_shape: triangle
+      gender: men
+    then:
+      category: clothing_silhouettes
+      best:
+        - Structured blazers with defined shoulders
+        - Horizontal stripes on upper body
+        - Layered jackets and shirts
+        - Straight-leg trousers in dark tones
+        - Boat neck and crew neck tops
+        - Statement outerwear
+      good:
+        - Polo shirts
+        - Oxford shirts
+        - Chinos in darker shades
+      suit_advice:
+        - Structured shoulders to build upper body presence
+        - Peak lapels for visual width
+        - Dark, solid-color trousers
+        - Double-breasted options for upper body emphasis
+      casual_advice:
+        - Light layering on top adds visual weight
+        - Patterns and prints on upper body create balance
+        - Darker bottoms with lighter tops
+      why: "A triangle frame is enhanced by building presence in the upper body through structured shoulders and layered tops"
+
+  # --- TRAPEZOID ---
+  - when:
+      body_shape: trapezoid
+      gender: men
+    then:
+      category: clothing_silhouettes
+      best:
+        - Well-fitted shirts and tees
+        - Slim-fit trousers
+        - Tailored blazers
+        - Crew and V-neck tops
+        - Fitted jackets
+        - Most styles work well
+      good:
+        - Straight-leg jeans
+        - Polo shirts
+        - Bomber jackets
+      suit_advice:
+        - Classic two-button single-breasted suits
+        - Most lapel styles work well
+        - Natural shoulder construction
+        - Fitted through the body
+      casual_advice:
+        - This proportional frame carries most styles beautifully
+        - Focus on fit rather than visual correction
+        - Experiment with styles and colors freely
+      why: "A trapezoid frame is naturally proportional — the focus should be on well-fitted garments that follow the body's natural lines"
+
+  # --- OVAL ---
+  - when:
+      body_shape: oval
+      gender: men
+    then:
+      category: clothing_silhouettes
+      best:
+        - Vertical stripe shirts
+        - V-neck sweaters and cardigans
+        - Single-breasted blazers
+        - Straight-leg trousers
+        - Monochrome outfits
+        - Longline shirts and jackets
+      good:
+        - Dark solid-color tops
+        - Structured jackets
+        - Flat-front trousers
+      suit_advice:
+        - Single-breasted, two or three button
+        - Vertical pinstripes elongate
+        - Slightly longer jacket length
+        - Flat-front trousers with straight leg
+      casual_advice:
+        - Vertical lines and monochrome create an elongated silhouette
+        - V-necklines elongate the torso
+        - Dark tones and tonal dressing are most flattering
+        - Structured fabrics create a refined look
+      why: "An oval frame is most enhanced by vertical lines, V-necklines, and structured fabrics that create an elongated, polished silhouette"

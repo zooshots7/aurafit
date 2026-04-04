@@ -1,0 +1,185 @@
+# Women's Body Shape Styling Rules
+# Recommendations use positive, empowering language only.
+# "Best fit" and "most flattering" instead of "don't wear" or "avoid".
+
+rules:
+  # --- HOURGLASS ---
+  - when:
+      body_shape: hourglass
+      gender: women
+    then:
+      category: clothing_silhouettes
+      best:
+        - Wrap dresses and tops
+        - Fitted A-line dresses
+        - High-waisted trousers
+        - Pencil skirts
+        - Belted blazers
+        - Peplum tops
+      good:
+        - Bodycon dresses for evening
+        - Fit-and-flare silhouettes
+        - Tailored shirts
+      alternatives:
+        - If you prefer relaxed fits, try belted or cinched options to define the waist
+        - Oversized tops work beautifully when paired with fitted bottoms
+      fabrics:
+        - Structured cotton blends
+        - Jersey knits that drape
+        - Ponte fabric
+        - Silk and satin for evening
+      patterns:
+        - Vertical stripes to elongate
+        - Medium-scale prints
+        - Solid colors for a streamlined look
+      why: "An hourglass figure is beautifully enhanced by styles that define the waist and follow natural curves"
+
+  # --- RECTANGLE ---
+  - when:
+      body_shape: rectangle
+      gender: women
+    then:
+      category: clothing_silhouettes
+      best:
+        - Peplum tops and dresses
+        - Wrap dresses with ruching
+        - A-line skirts
+        - Wide-leg trousers
+        - Layered outfits with textural contrast
+        - Off-shoulder tops
+      good:
+        - Structured blazers with nipped waist
+        - Ruffled blouses
+        - Flared jeans
+      alternatives:
+        - Straight-cut dresses gain shape with a belt or sash
+        - Layering with vests or jackets adds dimension
+      fabrics:
+        - Textured fabrics like tweed and boucle
+        - Soft draping materials
+        - Structured cotton
+      patterns:
+        - Color-blocking to create visual curves
+        - Diagonal prints
+        - Waist-level details and embellishments
+      why: "A rectangle frame is most flattered by styles that create the illusion of waist definition and add dimension"
+
+  # --- PEAR / TRIANGLE ---
+  - when:
+      body_shape: triangle
+      gender: women
+    then:
+      category: clothing_silhouettes
+      best:
+        - Boat neck and wide neckline tops
+        - Statement shoulder details
+        - A-line skirts and dresses
+        - Dark-toned bottoms
+        - Structured blazers
+        - Off-shoulder and cold-shoulder tops
+      good:
+        - Empire waist dresses
+        - Puff sleeve blouses
+        - Wide-leg trousers in dark tones
+      alternatives:
+        - Skinny jeans are flattering when paired with a longer top
+        - Bright patterns on top draw the eye upward beautifully
+      fabrics:
+        - Light, detailed fabrics on top
+        - Heavier, structured fabrics on bottom
+        - Matte finishes for lower body
+      patterns:
+        - Bold prints and patterns on upper body
+        - Solid dark colors for lower body
+        - Horizontal stripes on tops enhance shoulder balance
+      why: "A pear-shaped figure looks most balanced when visual interest is drawn upward with detailed tops and structured shoulders"
+
+  # --- INVERTED TRIANGLE ---
+  - when:
+      body_shape: inverted-triangle
+      gender: women
+    then:
+      category: clothing_silhouettes
+      best:
+        - V-necklines
+        - Full and flared skirts
+        - Wide-leg trousers
+        - A-line dresses
+        - Wrap tops
+        - Boot-cut jeans
+      good:
+        - Peplum skirts
+        - Paper bag waist trousers
+        - Palazzo pants
+      alternatives:
+        - Halter tops work well when balanced with a fuller skirt
+        - Raglan sleeves create a softer shoulder line
+      fabrics:
+        - Flowing fabrics for lower body volume
+        - Matte, streamlined fabrics for upper body
+        - Chiffon and georgette for skirts
+      patterns:
+        - Bold prints on lower body
+        - Solid or subtle patterns on top
+        - Vertical details on upper body
+      why: "An inverted-triangle frame is beautifully balanced by adding volume and interest to the lower body while streamlining the upper body"
+
+  # --- OVAL / APPLE ---
+  - when:
+      body_shape: oval
+      gender: women
+    then:
+      category: clothing_silhouettes
+      best:
+        - Empire waist dresses
+        - Wrap dresses and tops
+        - Longline cardigans
+        - Straight-leg trousers
+        - V-neck and scoop neck tops
+        - Monochrome outfits for a long line
+      good:
+        - A-line tunics
+        - Shift dresses
+        - High-waisted wide-leg trousers
+      alternatives:
+        - Structured fabrics create a polished silhouette
+        - Vertical lines and single-color outfits elongate beautifully
+      fabrics:
+        - Structured fabrics with gentle drape
+        - Ponte and jersey
+        - Cotton blends with some structure
+      patterns:
+        - Vertical stripes
+        - Small to medium prints
+        - Monochrome and tonal dressing
+      why: "An oval body shape is most enhanced by vertical lines and defined waistlines that create an elongated, elegant silhouette"
+
+  # --- PEAR ---
+  - when:
+      body_shape: pear
+      gender: women
+    then:
+      category: clothing_silhouettes
+      best:
+        - Boat neck and off-shoulder tops
+        - Statement sleeves
+        - A-line skirts
+        - Fit-and-flare dresses
+        - Structured blazers
+        - Embellished necklines
+      good:
+        - Empire waist dresses
+        - Dark-wash bootcut jeans
+        - Midi skirts with movement
+      alternatives:
+        - Bright colors and patterns on top beautifully balance proportions
+        - Adding shoulder detail creates a harmonious silhouette
+      fabrics:
+        - Detailed and textured fabrics on top
+        - Fluid, draping fabrics for bottoms
+        - Matte finishes for lower body
+      patterns:
+        - Bold patterns on upper body
+        - Solid or subtle tones on lower body
+        - Horizontal details at shoulder level
+      why: "A pear shape is most flattered by enhancing the upper body with detail and keeping the lower body streamlined"
