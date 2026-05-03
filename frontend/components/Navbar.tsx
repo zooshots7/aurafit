@@ -19,6 +19,7 @@ export default function Navbar({ variant = "light" }: NavbarProps) {
         <div className="hidden md:flex items-center gap-12 font-serif italic">
           <Link className={`${textClass} ${hoverClass}`} href="/">Explore</Link>
           <Link className={`${textClass} ${hoverClass}`} href="#">About</Link>
+          <Link className={`${textClass} ${hoverClass}`} href="/account">My Profiles</Link>
           <Link
             href="/upload"
             className="bg-primary text-on-primary px-6 py-2 rounded-lg font-label uppercase tracking-widest text-xs active:scale-95 duration-200 not-italic"
