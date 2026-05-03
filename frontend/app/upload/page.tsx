@@ -41,6 +41,8 @@ export default function UploadPage() {
   const [budgetMin] = useState(50);
   const [budgetMax] = useState(300);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isDragging, setIsDragging] = useState(false);
+  const dragCounter = useRef(0);
 
   function handleFiles(files: FileList | null) {
     if (!files) return;
@@ -92,7 +94,7 @@ export default function UploadPage() {
         budgetMax,
         selectedStyles,
         wearType,
-        selectedOccasions.map((o) => o.toLowerCase().replace(" ", "-")),
+        selectedOccasions.map((o) => o.toLowerCase().replace(/\s+/g, "-")),
         selectedGoals.map((g) => g.toLowerCase().replace(/ /g, "-")),
         ageRange
       );
@@ -159,10 +161,16 @@ export default function UploadPage() {
 
             {/* Drag & Drop Zone */}
             <div
-              className="border-2 border-dashed border-primary/40 bg-surface-container-low rounded-xl p-12 text-center group hover:border-primary hover:bg-surface-container transition-all cursor-pointer"
+              className={`border-2 border-dashed rounded-xl p-12 text-center group transition-all cursor-pointer ${
+                isDragging
+                  ? "border-primary bg-primary-fixed/20 scale-[1.01]"
+                  : "border-primary/40 bg-surface-container-low hover:border-primary hover:bg-surface-container"
+              }`}
               onClick={() => fileInputRef.current?.click()}
+              onDragEnter={(e) => { e.preventDefault(); dragCounter.current++; setIsDragging(true); }}
               onDragOver={(e) => e.preventDefault()}
-              onDrop={(e) => { e.preventDefault(); handleFiles(e.dataTransfer.files); }}
+              onDragLeave={(e) => { e.preventDefault(); dragCounter.current--; if (dragCounter.current === 0) setIsDragging(false); }}
+              onDrop={(e) => { e.preventDefault(); dragCounter.current = 0; setIsDragging(false); handleFiles(e.dataTransfer.files); }}
             >
               <input
                 ref={fileInputRef}

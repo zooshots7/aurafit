@@ -26,7 +26,10 @@ export default function Home() {
                   Get My Style Profile
                   <span className="material-symbols-outlined text-sm">arrow_forward</span>
                 </Link>
-                <button className="group px-8 py-4 rounded-md font-label uppercase tracking-widest text-sm border border-primary text-primary hover:bg-primary/5 transition-all">
+                <button
+                  onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="group px-8 py-4 rounded-md font-label uppercase tracking-widest text-sm border border-primary text-primary hover:bg-primary/5 transition-all"
+                >
                   See How It Works
                   <div className="h-[2px] w-0 group-hover:w-full bg-primary transition-all duration-300 mt-1"></div>
                 </button>
@@ -79,7 +82,7 @@ export default function Home() {
         </section>
 
         {/* How It Works */}
-        <section className="py-32 bg-surface">
+        <section id="how-it-works" className="py-32 bg-surface">
           <div className="max-w-7xl mx-auto px-8">
             <div className="mb-24 flex flex-col md:flex-row md:items-end justify-between gap-6">
               <div className="max-w-2xl">

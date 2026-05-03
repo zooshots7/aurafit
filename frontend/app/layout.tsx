@@ -39,6 +39,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable} ${spaceGrotesk.variable} ${notoSerif.variable}`}>
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        />
+      </head>
       <body className="bg-background text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed antialiased">
         {children}
       </body>
