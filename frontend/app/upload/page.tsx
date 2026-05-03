@@ -434,6 +434,25 @@ export default function UploadPage() {
                 <div className="h-full bg-primary transition-all duration-700" style={{ width: `${Math.min(100, (photos.length / recommendedPhotos) * 100)}%` }}></div>
               </div>
             </div>
+
+            {/* Trust Strip */}
+            <div className="flex flex-wrap gap-x-6 gap-y-3 pt-2">
+              {[
+                { icon: "lock", text: "Encrypted in transit & at rest" },
+                { icon: "no_photography", text: "Never used to train AI" },
+                { icon: "auto_delete", text: "Auto-deleted after 30 days" },
+              ].map(({ icon, text }) => (
+                <div key={icon} className="flex items-center gap-2 text-on-surface-variant">
+                  <span className="material-symbols-outlined text-[16px] text-outline">{icon}</span>
+                  <span className="font-label text-[10px] tracking-wider uppercase">{text}</span>
+                </div>
+              ))}
+              <a href="/privacy" className="flex items-center gap-1 text-primary hover:underline underline-offset-4 transition-colors" target="_blank" rel="noopener noreferrer">
+                <span className="font-label text-[10px] tracking-wider uppercase">Privacy Policy</span>
+                <span className="material-symbols-outlined text-[12px]">open_in_new</span>
+              </a>
+            </div>
+
           </div>
 
           {/* Preferences Section */}
